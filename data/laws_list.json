@@ -1,0 +1,764 @@
+[
+    {
+        "Law code": "AbgG",
+        "Law Title": "Members of the Bundestag Act",
+        "Link": "englisch_abgg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_abgg/englisch_abgg.pdf"
+    },
+    {
+        "Law code": "AdVermiG",
+        "Law Title": "Act on Adoption Placement and Support and on the Prohibition of Surrogacy Placement",
+        "Link": "englisch_advermig/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_advermig/englisch_advermig.pdf"
+    },
+    {
+        "Law code": "AEntG",
+        "Law Title": "Act on Mandatory Working Conditions for Workers Posted Across Borders and for Workers Regularly Employed in Germany",
+        "Link": "englisch_aentg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_aentg/englisch_aentg.pdf"
+    },
+    {
+        "Law code": "AGG",
+        "Law Title": "General Act on Equal Treatment",
+        "Link": "englisch_agg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_agg/englisch_agg.pdf"
+    },
+    {
+        "Law code": "AktG",
+        "Law Title": "Stock Corporation Act",
+        "Link": "englisch_aktg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_aktg/englisch_aktg.pdf"
+    },
+    {
+        "Law code": "AMG",
+        "Law Title": "Medicinal Products Act (Arzneimittelgesetz - AMG)",
+        "Link": "englisch_amg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_amg/englisch_amg.pdf"
+    },
+    {
+        "Law code": "AntiDopG",
+        "Law Title": "Act against doping in sport (Anti-Doping Act - AntiDopG)",
+        "Link": "englisch_antidopg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_antidopg/englisch_antidopg.pdf"
+    },
+    {
+        "Law code": "AO",
+        "Law Title": "The Fiscal Code of Germany",
+        "Link": "englisch_ao/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_ao/englisch_ao.pdf"
+    },
+    {
+        "Law code": "ArbMedVV",
+        "Law Title": "Ordinance on Preventive Occupational Health Care (ArbMedVV)",
+        "Link": "englisch_arbmedvv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_arbmedvv/englisch_arbmedvv.pdf"
+    },
+    {
+        "Law code": "ArbSchG",
+        "Law Title": "Act on the Implementation of Measures of Occupational Safety and Health to Encourage Improvements in the Safety and Health Protection of Workers at Work (Arbeitsschutzgesetz, ArbSchG)",
+        "Link": "englisch_arbschg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_arbschg/englisch_arbschg.pdf"
+    },
+    {
+        "Law code": "ArbStättV",
+        "Law Title": "Ordinance on Workplaces",
+        "Link": "englisch_arbst_ttv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_arbst_ttv/englisch_arbst_ttv.pdf"
+    },
+    {
+        "Law code": "ASiG",
+        "Law Title": "Act on Occupational Physicians, Safety Engineers and Other Occupational Safety Specialists",
+        "Link": "englisch_asig/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_asig/englisch_asig.pdf"
+    },
+    {
+        "Law code": "AsylG",
+        "Law Title": "Asylum Act",
+        "Link": "englisch_asylvfg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_asylvfg/englisch_asylvfg.pdf"
+    },
+    {
+        "Law code": "AufenthG",
+        "Law Title": "Act on the Residence, Economic Activity and Integration of Foreigners in the Federal Territory - Residence Act",
+        "Link": "englisch_aufenthg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_aufenthg/englisch_aufenthg.pdf"
+    },
+    {
+        "Law code": "AUG",
+        "Law Title": "Act on the Recovery of Maintenance in Relations with Foreign States - Foreign Maintenance Act",
+        "Link": "englisch_aug/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_aug/englisch_aug.pdf"
+    },
+    {
+        "Law code": "AÜG",
+        "Law Title": "Act on Temporary Agency Work (Arbeitnehmerüberlassungsgesetz - AÜG)",
+        "Link": "englisch_a_g/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_a_g/englisch_a_g.pdf"
+    },
+    {
+        "Law code": "AWaffV",
+        "Law Title": "General Ordinance on the Weapons Act",
+        "Link": "englisch_awaffv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_awaffv/englisch_awaffv.pdf"
+    },
+    {
+        "Law code": "AWG",
+        "Law Title": "Foreign Trade and Payments Act",
+        "Link": "englisch_awg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_awg/englisch_awg.pdf"
+    },
+    {
+        "Law code": "AWV",
+        "Law Title": "Foreign Trade and Payments Ordinance (Außenwirtschaftsverordnung - AWV)",
+        "Link": "englisch_awv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_awv/englisch_awv.pdf"
+    },
+    {
+        "Law code": "BBergG",
+        "Law Title": "Federal Mining Act (BBergG)",
+        "Link": "englisch_bbergg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bbergg/englisch_bbergg.pdf"
+    },
+    {
+        "Law code": "BDSG",
+        "Law Title": "Federal Data Protection Act (BDSG)",
+        "Link": "englisch_bdsg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bdsg/englisch_bdsg.pdf"
+    },
+    {
+        "Law code": "BerHG",
+        "Law Title": "Act on Advisory Assistance and Representation for Citizens with a Low Income (Beratungshilfegesetz - BerHG)",
+        "Link": "englisch_berathig/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_berathig/englisch_berathig.pdf"
+    },
+    {
+        "Law code": "BeschV",
+        "Law Title": "Ordinance on the Employment of Foreigners",
+        "Link": "englisch_beschv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_beschv/englisch_beschv.pdf"
+    },
+    {
+        "Law code": "BetrVG",
+        "Law Title": "Works Constitution Act (Betriebsverfassungsgesetz - BetrVG)",
+        "Link": "englisch_betrvg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_betrvg/englisch_betrvg.pdf"
+    },
+    {
+        "Law code": "BFDG",
+        "Law Title": "Act on the Federal Voluntary Service",
+        "Link": "englisch_bfdg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bfdg/englisch_bfdg.pdf"
+    },
+    {
+        "Law code": "BGB",
+        "Law Title": "German Civil Code",
+        "Link": "englisch_bgb/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bgb/englisch_bgb.pdf"
+    },
+    {
+        "Law code": "EGBGB",
+        "Law Title": "Introductory Act to the Civil Code (IACC)",
+        "Link": "englisch_bgbeg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bgbeg/englisch_bgbeg.pdf"
+    },
+    {
+        "Law code": "BioStoffV",
+        "Law Title": "Ordinance on Safety and Health Protection at Workplaces Involving Biological Agents (Biological Agents Ordinance - BioStoffV)",
+        "Link": "englisch_biostoffv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_biostoffv/englisch_biostoffv.pdf"
+    },
+    {
+        "Law code": "BMG",
+        "Law Title": "Federal Act on Registration",
+        "Link": "englisch_bmg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bmg/englisch_bmg.pdf"
+    },
+    {
+        "Law code": "BNotO",
+        "Law Title": "Federal Code for Notaries",
+        "Link": "englisch_bnoto/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bnoto/englisch_bnoto.pdf"
+    },
+    {
+        "Law code": "BRAO",
+        "Law Title": "Federal Code for Lawyers",
+        "Link": "englisch_brao/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_brao/englisch_brao.pdf"
+    },
+    {
+        "Law code": "BSIG",
+        "Law Title": "Act on the Federal Office for Information Security (BSI Act - BSIG)",
+        "Link": "englisch_bsig/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bsig/englisch_bsig.pdf"
+    },
+    {
+        "Law code": "BVerfGG",
+        "Law Title": "Act on the Federal Constitutional Court (Bundesverfassungsgerichtsgesetz - BVerfGG)",
+        "Link": "englisch_bverfgg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bverfgg/englisch_bverfgg.pdf"
+    },
+    {
+        "Law code": "BVerfGGO",
+        "Law Title": "Rules of Procedure of the Federal Constitutional Court",
+        "Link": "englisch_bverfggo/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bverfggo/englisch_bverfggo.pdf"
+    },
+    {
+        "Law code": "BZRG",
+        "Law Title": "Act on the Central Criminal Register and the Educative Measures Register",
+        "Link": "englisch_bzrg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bzrg/englisch_bzrg.pdf"
+    },
+    {
+        "Law code": "COVInsAG",
+        "Law Title": "Act to Temporarily Suspend the Obligation to File for Insolvency and to Limit Directors’ Liability in the Case of Insolvency Caused by the COVID-19 Pandemic (COVID-19-Insolvenzaussetzungsgesetz - COVInsAG)",
+        "Link": "englisch_covinsag/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_covinsag/englisch_covinsag.pdf"
+    },
+    {
+        "Law code": "DesignG",
+        "Law Title": "Act on the Legal Protection of Designs (Designgesetz - DesignG)",
+        "Link": "englisch_geschmmg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_geschmmg/englisch_geschmmg.pdf"
+    },
+    {
+        "Law code": "DNG",
+        "Law Title": "Act governing the use of public sector data (Data Use Act - DUA)",
+        "Link": "englisch_dng/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_dng/englisch_dng.pdf"
+    },
+    {
+        "Law code": "DRiG",
+        "Law Title": "German Judiciary Act",
+        "Link": "englisch_drig/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_drig/englisch_drig.pdf"
+    },
+    {
+        "Law code": "EGovG",
+        "Law Title": "Act to promote electronic government (E-Government Act - EGovG)",
+        "Link": "englisch_egovg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_egovg/englisch_egovg.pdf"
+    },
+    {
+        "Law code": "eIDKG",
+        "Law Title": "Act on a Card with an Electronic Identification Function for Citizens of the European Union and the European Economic Area",
+        "Link": "englisch_eidkg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_eidkg/englisch_eidkg.pdf"
+    },
+    {
+        "Law code": "EntgTranspG",
+        "Law Title": "The Act to promote Transparency in Wage Structures among Women and Men (Transparency in Wage Structures Act)",
+        "Link": "englisch_entgtranspg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_entgtranspg/englisch_entgtranspg.pdf"
+    },
+    {
+        "Law code": "ErwSÜAG",
+        "Law Title": "Act to Implement the Hague Convention of 13 January 2000 on the International Protection of Adults (Protection of Adults Convention Implementation Act  -  ErwSÜAG)",
+        "Link": "englisch_erws_ag/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_erws_ag/englisch_erws_ag.pdf"
+    },
+    {
+        "Law code": "EuAbgG",
+        "Law Title": "Members of the European Parliament Act",
+        "Link": "englisch_euabgg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_euabgg/englisch_euabgg.pdf"
+    },
+    {
+        "Law code": "EU-VSchDG",
+        "Law Title": "Act to Implement Regulation (EU) 2017/2394 of the European Parliament and of the Council on Cooperation between National Authorities Responsible for the Enforcement of Consumer Protection Laws and Repealing Regulation (EC) No. 2006/2004 (EU Consumer Protection Implementing Act) ",
+        "Link": "englisch_vschdg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_vschdg/englisch_vschdg.pdf"
+    },
+    {
+        "Law code": "EUZBBG",
+        "Law Title": "Act on Cooperation between the Federal Government and the German Bundestag in Matters concerning the European Union",
+        "Link": "englisch_euzbbg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_euzbbg/englisch_euzbbg.pdf"
+    },
+    {
+        "Law code": "FamFG",
+        "Law Title": "Act on Proceedings in Family Matters and in Matters of Non-contentious Jurisdiction",
+        "Link": "englisch_famfg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_famfg/englisch_famfg.pdf"
+    },
+    {
+        "Law code": "FeuerschStG",
+        "Law Title": "Fire Protection Tax Act",
+        "Link": "englisch_feuerschstg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_feuerschstg/englisch_feuerschstg.pdf"
+    },
+    {
+        "Law code": "FlugDaG",
+        "Law Title": "Act on the Processing of Passenger Name Record (PNR) Data to Implement Directive (EU) 2016/681  (Passenger Name Record Act, FlugDaG)",
+        "Link": "englisch_flugdag/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_flugdag/englisch_flugdag.pdf"
+    },
+    {
+        "Law code": "FreizügG/EU",
+        "Law Title": "Act on the General Freedom of Movement for EU Citizens (Freedom of Movement Act/EU)",
+        "Link": "englisch_freiz_gg_eu/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_freiz_gg_eu/englisch_freiz_gg_eu.pdf"
+    },
+    {
+        "Law code": "GeschGehG",
+        "Law Title": "Act on the Protection of Trade Secrets",
+        "Link": "englisch_geschgehg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_geschgehg/englisch_geschgehg.pdf"
+    },
+    {
+        "Law code": "GG",
+        "Law Title": "Basic Law for the Federal Republic of Germany",
+        "Link": "englisch_gg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.pdf"
+    },
+    {
+        "Law code": "GmbHG",
+        "Law Title": "Act on Limited Liability Companies (Gesetz betreffend die Gesellschaften mit beschränkter Haftung - GmbHG)\n",
+        "Link": "englisch_gmbhg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_gmbhg/englisch_gmbhg.pdf"
+    },
+    {
+        "Law code": "EGGmbHG",
+        "Law Title": "Introductory Act to the Act on Limited Liability Companies (Einführungsgesetz zum Gesetz betreffend die Gesellschaften mit beschränkter Haftung - GmbHG-Einführungsgesetz)",
+        "Link": "englisch_eggmbhg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_eggmbhg/englisch_eggmbhg.pdf"
+    },
+    {
+        "Law code": "GVG",
+        "Law Title": "Courts Constitution Act",
+        "Link": "englisch_gvg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_gvg/englisch_gvg.pdf"
+    },
+    {
+        "Law code": "GWB",
+        "Law Title": "Competition Act",
+        "Link": "englisch_gwb/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_gwb/englisch_gwb.pdf"
+    },
+    {
+        "Law code": "HaagÜbkAG",
+        "Law Title": "Act to Implement the Hague Convention of 15 November 1965 on the Service Abroad of Judicial and Extrajudicial Documents in Civil or Commercial Matters and the Hague Convention of 18 March 1970 on the Taking of Evidence Abroad in Civil or Commercial Matters",
+        "Link": "englisch_haag_bkag/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_haag_bkag/englisch_haag_bkag.pdf"
+    },
+    {
+        "Law code": "HGB",
+        "Law Title": "Commercial Code (Handelsgesetzbuch - HGB)",
+        "Link": "englisch_hgb/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_hgb/englisch_hgb.pdf"
+    },
+    {
+        "Law code": "IFG",
+        "Law Title": "Federal Act Governing Access to Information held by the Federal Government (Freedom of Information Act)",
+        "Link": "englisch_ifg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_ifg/englisch_ifg.pdf"
+    },
+    {
+        "Law code": "InsO",
+        "Law Title": "Insolvency Code",
+        "Link": "englisch_inso/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_inso/englisch_inso.pdf"
+    },
+    {
+        "Law code": "EGInsO",
+        "Law Title": "Introductory Act to the Insolvency Code",
+        "Link": "englisch_eginso/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_eginso/englisch_eginso.pdf"
+    },
+    {
+        "Law code": "IntFamRVG",
+        "Law Title": "Act to Implement Certain Legal Instruments in the Field of International Family Law (International Family Law Procedure Act - IFLPA)",
+        "Link": "englisch_intfamrvg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_intfamrvg/englisch_intfamrvg.pdf"
+    },
+    {
+        "Law code": "IntVG",
+        "Law Title": "Act on the Exercise by the Bundestag and by the Bundesrat of their Responsibility for Integration in Matters concerning the European Union (Responsibility for Integration Act)",
+        "Link": "englisch_intvg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_intvg/englisch_intvg.pdf"
+    },
+    {
+        "Law code": "IRG",
+        "Law Title": "Act on International Mutual Assistance in Criminal Matters",
+        "Link": "englisch_irg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_irg/englisch_irg.pdf"
+    },
+    {
+        "Law code": "IStGHG",
+        "Law Title": "Act on International Cooperation with the International Criminal Court (Gesetz über die Zusammenarbeit mit dem Internationalen Strafgerichtshof - IStGHG)",
+        "Link": "englisch_istghg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_istghg/englisch_istghg.pdf"
+    },
+    {
+        "Law code": "JFDG",
+        "Law Title": "Act to Promote Youth Voluntary Services",
+        "Link": "englisch_jfdg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_jfdg/englisch_jfdg.pdf"
+    },
+    {
+        "Law code": "JGG",
+        "Law Title": "Youth Courts Act",
+        "Link": "englisch_jgg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_jgg/englisch_jgg.pdf"
+    },
+    {
+        "Law code": "KapMuG",
+        "Law Title": "Act on Model Case Proceedings in Disputes under Capital Markets Law (Capital Markets Model Case Act - KapMuG)",
+        "Link": "englisch_kapmug/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_kapmug/englisch_kapmug.pdf"
+    },
+    {
+        "Law code": "KassenSichV",
+        "Law Title": "Ordinance Establishing the Technical Requirements for Electronic Record-Keeping and Security Systems in Business Transactions (Cash Register Anti-Tampering Ordinance) ",
+        "Link": "englisch_kassensichv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_kassensichv/englisch_kassensichv.pdf"
+    },
+    {
+        "Law code": "KGSG",
+        "Law Title": "Ac‎t on the Protection of Cultural Property‏ (‎Cultural Property Protection Act - KGSG)",
+        "Link": "englisch_kgsg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_kgsg/englisch_kgsg.pdf"
+    },
+    {
+        "Law code": "KSG",
+        "Law Title": "Federal Climate Change Act",
+        "Link": "englisch_ksg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_ksg/englisch_ksg.pdf"
+    },
+    {
+        "Law code": "LasthandhabV",
+        "Law Title": "Ordinance on Health and Safety Requirements for the Manual Handling of Loads at Work (Lastenhandhabungsverordnung, LasthandhabV)",
+        "Link": "englisch_lasthandhabv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_lasthandhabv/englisch_lasthandhabv.pdf"
+    },
+    {
+        "Law code": "LPartG",
+        "Law Title": "Act on Registered Life Partnerships",
+        "Link": "englisch_lpartg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_lpartg/englisch_lpartg.pdf"
+    },
+    {
+        "Law code": "LuftSchlichtV",
+        "Law Title": "Ordinance pursuant to section 57c of the Aviation Act on Conciliation in the Aviation Sector (Luftverkehrsschlichtungsverordnung - LuftSchlichtV)",
+        "Link": "englisch_luftschlichtv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_luftschlichtv/englisch_luftschlichtv.pdf"
+    },
+    {
+        "Law code": "LuftVG",
+        "Law Title": "Aviation Act (Luftverkehrsgesetz - LuftVG)",
+        "Link": "englisch_luftvg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_luftvg/englisch_luftvg.pdf"
+    },
+    {
+        "Law code": "MariMedV",
+        "Law Title": "Ordinance on Maritime Medicine Requirements on Merchant Vessels (Maritime Medicine Ordinance)",
+        "Link": "englisch_marimedv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_marimedv/englisch_marimedv.pdf"
+    },
+    {
+        "Law code": "MarkenG",
+        "Law Title": "Act on the Protection of Trade Marks and other Signs. Trade Mark Act",
+        "Link": "englisch_markeng/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_markeng/englisch_markeng.pdf"
+    },
+    {
+        "Law code": "MediationsG",
+        "Law Title": "Mediation Act",
+        "Link": "englisch_mediationsg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_mediationsg/englisch_mediationsg.pdf"
+    },
+    {
+        "Law code": "MiLoG",
+        "Law Title": "Act Regulating a General Minimum Wage (Mindestlohngesetz - MiLoG) ",
+        "Link": "englisch_milog/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_milog/englisch_milog.pdf"
+    },
+    {
+        "Law code": "MuSchG",
+        "Law Title": "Act on the Protection of Mothers at Work, in Training and at University (Maternity Protection Act - MuSchG)",
+        "Link": "englisch_muschg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_muschg/englisch_muschg.pdf"
+    },
+    {
+        "Law code": "NKRG",
+        "Law Title": "Act Establishing a National Regulatory Control Council",
+        "Link": "englisch_nkrg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_nkrg/englisch_nkrg.pdf"
+    },
+    {
+        "Law code": "Offshore-ArbZV",
+        "Law Title": "Ordinance on Working Time in relation to Offshore Work (Offshore Working Time Ordinance)",
+        "Link": "englisch_offshore-arbzv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_offshore-arbzv/englisch_offshore-arbzv.pdf"
+    },
+    {
+        "Law code": "OWiG",
+        "Law Title": "Act on Regulatory Offences",
+        "Link": "englisch_owig/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_owig/englisch_owig.pdf"
+    },
+    {
+        "Law code": "PartGG",
+        "Law Title": "Act on Partnership Companies of Members of Independent Professions ",
+        "Link": "englisch_partgg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_partgg/englisch_partgg.pdf"
+    },
+    {
+        "Law code": "PaßG",
+        "Law Title": "Passport Act",
+        "Link": "englisch_pa_g/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_pa_g/englisch_pa_g.pdf"
+    },
+    {
+        "Law code": "PatG",
+        "Law Title": "Patent Act (Patentgesetz - PatG)",
+        "Link": "englisch_patg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_patg/englisch_patg.pdf"
+    },
+    {
+        "Law code": "PAuswG",
+        "Law Title": "Act on Identity Cards and Electronic Identification",
+        "Link": "englisch_pauswg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_pauswg/englisch_pauswg.pdf"
+    },
+    {
+        "Law code": "ProdHaftG",
+        "Law Title": "Act on Liability for Defective Products (Produkthaftungsgesetz - ProdhaftG)",
+        "Link": "englisch_prodhaftg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_prodhaftg/englisch_prodhaftg.pdf"
+    },
+    {
+        "Law code": "ProdSG",
+        "Law Title": "Act on Making Products Available on the Market (Product Safety Act - ProdSG)",
+        "Link": "englisch_prodsg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_prodsg/englisch_prodsg.pdf"
+    },
+    {
+        "Law code": "RDG",
+        "Law Title": "Act on Out-of-Court Legal Services (Rechtsdienstleistungsgesetz, RDG)",
+        "Link": "englisch_rdg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_rdg/englisch_rdg.pdf"
+    },
+    {
+        "Law code": "RPflG",
+        "Law Title": "Act on Senior Judicial Officers",
+        "Link": "englisch_rpflg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_rpflg/englisch_rpflg.pdf"
+    },
+    {
+        "Law code": "RVG",
+        "Law Title": "Act on the Remuneration of Lawyers",
+        "Link": "englisch_rvg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_rvg/englisch_rvg.pdf"
+    },
+    {
+        "Law code": "SchBesV",
+        "Law Title": "Safe Manning Ordinance (SchBesV)",
+        "Link": "englisch_schbesv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_schbesv/englisch_schbesv.pdf"
+    },
+    {
+        "Law code": "SchwarzArbG",
+        "Law Title": "Act to Combat Undeclared Work and Unlawful Employment",
+        "Link": "englisch_schwarzarbg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_schwarzarbg/englisch_schwarzarbg.pdf"
+    },
+    {
+        "Law code": "SeeArbG",
+        "Law Title": "Maritime Labour Act",
+        "Link": "englisch_seearbg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_seearbg/englisch_seearbg.pdf"
+    },
+    {
+        "Law code": "SeeArbÜV",
+        "Law Title": "Ordinance on verification of compliance of working and living conditions on board ships (Maritime Working Verification Ordinance - MaritimeWorkO)",
+        "Link": "englisch_seearb_v/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_seearb_v/englisch_seearb_v.pdf"
+    },
+    {
+        "Law code": "See-ArbZNV",
+        "Law Title": "Ordinance on the table of shipboard working arrangements and records of hours of work in maritime shipping (See-Arbeitszeitnachweisverordnung - See-ArbZNV)",
+        "Link": "englisch_see-arbznv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_see-arbznv/englisch_see-arbznv.pdf"
+    },
+    {
+        "Law code": "SeeAufgG",
+        "Law Title": "Act on the Responsibilities of the Federal Government in the Field of Maritime Shipping (Maritime Shipping Responsibilities Act - SeeAufgG)",
+        "Link": "englisch_bseeschg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_bseeschg/englisch_bseeschg.pdf"
+    },
+    {
+        "Law code": "See-BAV",
+        "Law Title": "Ordinance Pursuant to Vocational Training in Maritime Shipping (Maritime Vocational Training Ordinance - See-BAV)",
+        "Link": "englisch_see-bav/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_see-bav/englisch_see-bav.pdf"
+    },
+    {
+        "Law code": "See-BV",
+        "Law Title": "Regulations on the Competencies and Proficiencies of Seafarers in the Maritime Shipping Industry (Seafarers' Competencies and Proficiencies Regulations - See-BV)",
+        "Link": "englisch_see-bv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_see-bv/englisch_see-bv.pdf"
+    },
+    {
+        "Law code": "SeeEigensichV",
+        "Law Title": "Ordinance on Shipboard Security Measures (SeeEigensichV)",
+        "Link": "englisch_seeeigensichv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_seeeigensichv/englisch_seeeigensichv.pdf"
+    },
+    {
+        "Law code": "SeeUnterkunftsV",
+        "Law Title": "Ordinance on Accommodation and Recreational Facilities for Crew Members on Board Merchant Vessels (Ordinance on Accommodation in Maritime Shipping - MaritimeAccommodationO)",
+        "Link": "englisch_seeunterkunftsv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_seeunterkunftsv/englisch_seeunterkunftsv.pdf"
+    },
+    {
+        "Law code": "SGB XIV",
+        "Law Title": "Social Code Book XIV - Social Compensation",
+        "Link": "englisch_sgb_14/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_sgb_14/englisch_sgb_14.pdf"
+    },
+    {
+        "Law code": "StAG",
+        "Law Title": "Nationality Act",
+        "Link": "englisch_stag/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_stag/englisch_stag.pdf"
+    },
+    {
+        "Law code": "StGB",
+        "Law Title": "German Criminal Code",
+        "Link": "englisch_stgb/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_stgb/englisch_stgb.pdf"
+    },
+    {
+        "Law code": "StPO",
+        "Law Title": "German Code of Criminal Procedure",
+        "Link": "englisch_stpo/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_stpo/englisch_stpo.pdf"
+    },
+    {
+        "Law code": "StVG",
+        "Law Title": "Road Traffic Act",
+        "Link": "englisch_stvg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_stvg/englisch_stvg.pdf"
+    },
+    {
+        "Law code": "StVollzG",
+        "Law Title": "Act on the Execution of Prison Sentences and Measures of Reform and Prevention Involving Deprivation of Liberty (Prison Act)",
+        "Link": "englisch_stvollzg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_stvollzg/englisch_stvollzg.pdf"
+    },
+    {
+        "Law code": "TrinkwV",
+        "Law Title": "Ordinance on the Quality of Water Intended for Human Consumption (Trinkwasserverordnung - TrinkwV 2023)",
+        "Link": "englisch_trinkwv/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_trinkwv/englisch_trinkwv.pdf"
+    },
+    {
+        "Law code": "TVG",
+        "Law Title": "Collective Agreements Act",
+        "Link": "englisch_tvg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_tvg/englisch_tvg.pdf"
+    },
+    {
+        "Law code": "UmweltHG",
+        "Law Title": "Environmental Liability Act (Umwelthaftungsgesetz)",
+        "Link": "englisch_umwelthg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_umwelthg/englisch_umwelthg.pdf"
+    },
+    {
+        "Law code": "UmwG",
+        "Law Title": "Transformation Act",
+        "Link": "englisch_umwg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_umwg/englisch_umwg.pdf"
+    },
+    {
+        "Law code": "UrhDaG",
+        "Law Title": "Act on the Copyright Liability of Online Content Sharing Service Providers",
+        "Link": "englisch_urhdag/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_urhdag/englisch_urhdag.pdf"
+    },
+    {
+        "Law code": "UrhG",
+        "Law Title": "Act on Copyright and Related Rights (Urheberrechtsgesetz, UrhG)",
+        "Link": "englisch_urhg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.pdf"
+    },
+    {
+        "Law code": "UWG",
+        "Law Title": "Act against Unfair Competition (Gesetz gegen den unlauteren Wettbewerb - UWG)",
+        "Link": "englisch_uwg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_uwg/englisch_uwg.pdf"
+    },
+    {
+        "Law code": "VersRücklG",
+        "Law Title": "Act Governing a Federal Pension Reserve (Versorgungsrücklagegesetz - VersRücklG)\n",
+        "Link": "englisch_versr_cklg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_versr_cklg/englisch_versr_cklg.pdf"
+    },
+    {
+        "Law code": "VersStG",
+        "Law Title": "Insurance Tax Act",
+        "Link": "englisch_versstg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_versstg/englisch_versstg.pdf"
+    },
+    {
+        "Law code": "VGG",
+        "Law Title": "Act on the Management of Copyright and Related Rights by Collecting Societies (Verwertungsgesellschaftengesetz - VGG)",
+        "Link": "englisch_vgg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_vgg/englisch_vgg.pdf"
+    },
+    {
+        "Law code": "VSBG",
+        "Law Title": "Act on Alternative Dispute Resolution in Consumer Matters (Gesetz über die alternative Streitbeilegung in Verbrauchersachen - Verbraucherstreitbeilegungsgesetz)",
+        "Link": "englisch_vsbg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_vsbg/englisch_vsbg.pdf"
+    },
+    {
+        "Law code": "VStGB",
+        "Law Title": "Code of Crimes against International Law (CCAIL)",
+        "Link": "englisch_vstgb/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_vstgb/englisch_vstgb.pdf"
+    },
+    {
+        "Law code": "VVG",
+        "Law Title": "Insurance Contract Act 2008",
+        "Link": "englisch_vvg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_vvg/englisch_vvg.pdf"
+    },
+    {
+        "Law code": "VwGO",
+        "Law Title": "Code of Administrative Court Procedure",
+        "Link": "englisch_vwgo/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_vwgo/englisch_vwgo.pdf"
+    },
+    {
+        "Law code": "WaffG",
+        "Law Title": "Weapons Act",
+        "Link": "englisch_waffg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_waffg/englisch_waffg.pdf"
+    },
+    {
+        "Law code": "WEG",
+        "Law Title": "Act on the Ownership of Apartments and the Permanent Residential Right (Wohnungseigentumsgesetz, WEG)",
+        "Link": "englisch_woeigg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_woeigg/englisch_woeigg.pdf"
+    },
+    {
+        "Law code": "WRegG",
+        "Law Title": "Act on the establishment and operation of a register for the protection of competition for public contracts and concessions (Competition Register Act - Wettbewerbsregistergesetz, WRegG)",
+        "Link": "englisch_wregg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_wregg/englisch_wregg.pdf"
+    },
+    {
+        "Law code": "ZPO",
+        "Law Title": "Code of Civil Procedure",
+        "Link": "englisch_zpo/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_zpo/englisch_zpo.pdf"
+    },
+    {
+        "Law code": "ZVG",
+        "Law Title": "Act on Enforced Auction and Receivership (Gesetz über die Zwangsversteigerung und die Zwangsverwaltung)",
+        "Link": "englisch_zvg/index.html",
+        "pdf_url": "https://www.gesetze-im-internet.de/englisch_zvg/englisch_zvg.pdf"
+    }
+]
