@@ -1,6 +1,6 @@
 .env
 venv/
-
+lawscraper.log
 
 
 # Byte-compiled / optimized / DLL files

@@ -5,6 +5,34 @@ import json
 import re
 from tqdm import tqdm
 import logging
+import validators
+import time
+from requests.exceptions import RequestException
+
+
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s',
+                    filename='lawscraper.log',
+                    filemode='w',
+                    encoding='utf-8')
+
+
+def validate_url(url):
+    if validators.url(url):
+        logging.info(f"Validated URL: {url}")
+        return True
+    else:
+        logging.error(f"Invalid URL: {url}")
+        raise ValueError(f"Invalid URL: {url}")
+
+def validate_path(path):
+    if os.path.exists(path):
+        logging.info(f"Validated path: {path}")
+        return True
+    else:
+        logging.error(f"Invalid Path: {path}")
+        raise ValueError(f"Invalid Path: {path}")
+
 
 class LawScraper:
     def __init__(self, config_path):
@@ -15,11 +43,11 @@ class LawScraper:
         self.json_filepath = config['json_filepath']
         self.pdf_dir = config['pdf_dir']
 
-        logging.basicConfig(level=logging.INFO,
-                            format='%(asctime)s - %(levelname)s - %(message)s',
-                            filename='lawscraper.log',
-                            filemode='w',
-                            encoding='utf-8')
+        validate_url(self.url_base)
+        validate_url(self.laws_url)
+        validate_path(self.json_filepath)
+        validate_path(self.pdf_dir)
+        
 
     def fetch_laws_page(self, url):
         try:
