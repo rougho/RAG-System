@@ -7,11 +7,13 @@ from tqdm import tqdm
 import logging
 
 class LawScraper:
-    def __init__(self, url_base, laws_url, json_filepath, pdf_dir):
-        self.url_base = url_base
-        self.laws_url = laws_url
-        self.json_filepath = json_filepath
-        self.pdf_dir = pdf_dir
+    def __init__(self, config_path):
+        with open(config_path, 'r') as config_file:
+            config = json.load(config_file)
+        self.url_base = config['url_base']
+        self.laws_url = config['laws_url']
+        self.json_filepath = config['json_filepath']
+        self.pdf_dir = config['pdf_dir']
 
         logging.basicConfig(level=logging.INFO,
                             format='%(asctime)s - %(levelname)s - %(message)s',

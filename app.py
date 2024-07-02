@@ -5,10 +5,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from tqdm import tqdm
 
 
-URL_BASE = "https://www.gesetze-im-internet.de/"
-LAWS_URL = "https://www.gesetze-im-internet.de/Teilliste_translations.html"
-JSON_FILEPATH = 'data/laws_list.json'
-PDF_DIR = 'data/pdfs'
+
 
 
 def split_documents(documents, text_splitter):
@@ -26,21 +23,23 @@ def split_documents(documents, text_splitter):
 
 if __name__ == "__main__":
 
-    scraper = LawScraper(URL_BASE, LAWS_URL, JSON_FILEPATH, PDF_DIR)
+    scraper = LawScraper('config.json')
     scraper.get_laws_list()
 
     laws_from_json = scraper.load_laws_from_json()
     scraper.download_pdfs(laws_from_json)
 
-    pdf_folder_path = "data/pdfs"
-    data = load_and_process_pdfs(pdf_folder_path)
+    # pdf_folder_path = "data/pdfs"
+    # data = load_and_process_pdfs(pdf_folder_path)
+    
+    # text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
+    #     chunk_size=512,
+    #     chunk_overlap=30,
+    # )
 
-    text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-        chunk_size=512,
-        chunk_overlap=30,
-    )
+    # all_splits = split_documents(data, text_splitter)
 
-    all_splits = split_documents(data, text_splitter)
-
-    with open("splitted.txt","w") as f:
-        f.write(all_splits)
+    # with open("splitted.txt", "w", encoding="utf-8") as f:
+    #     for split in all_splits:
+    #         print(split.pages[5])
+    #         f.write(split + "\n")

@@ -1,0 +1,6 @@
+{
+    "url_base": "https://www.gesetze-im-internet.de/",
+    "laws_url": "https://www.gesetze-im-internet.de/Teilliste_translations.html",
+    "json_filepath": "data/laws_list.json",
+    "pdf_dir": "data/pdfs"
+}

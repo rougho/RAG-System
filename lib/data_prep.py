@@ -60,6 +60,8 @@ import os
 import re
 from langchain_community.document_loaders import PyPDFLoader
 from tqdm import tqdm
+# import dataclasses
+
 
 class PDFCleaner:
     def __init__(self, file_path):
@@ -77,9 +79,12 @@ class PDFCleaner:
         self.pages[0] = first_page
         
         progress_bar.update(1)
+
         return self.pages
     
     def clean_headers_and_page_numbers(self, progress_bar):
+        print(type(self.pages))
+        print(type(self.pages[0]))
         header_pattern = (
             r'Service\s+provided\s+by\s+the\s+Federal\s+Ministry\s+of\s+Justice\s+'
             r'and\s+the\s+Federal\s+Office\s+of\s+Justice\s+‒\s+www\.gesetze\s*-\s*im\s*-\s*internet\s*\.de'
