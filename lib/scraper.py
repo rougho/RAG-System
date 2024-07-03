@@ -140,12 +140,22 @@ class LawScraper:
             pdf_title = self.sanitize_filename(law['Law code'])
             pdf_path = os.path.join(self.pdf_dir, f"{pdf_title}.pdf")
             try:
-                response = requests.get(pdf_url)
-                response.raise_for_status()
-                with open(pdf_path, 'wb') as pdf_file:
-                    pdf_file.write(response.content)
-                logging.info(f"Downloaded: {pdf_title}")
-                tqdm.write(f"Downloaded: {pdf_title}")
-            except requests.exceptions.RequestException as e:
+                self.download_with_retries(pdf_url, pdf_path, pdf_title)
+            except Exception as e:
                 logging.error(f"Failed to download {pdf_title}: {e}")
                 tqdm.write(f"Failed to download {pdf_title}: {e}")
+
+    def download_with_retries(self, url, path, title, retries=3, delay=5):
+        for attempt in range(retries):
+            try:
+                response = requests.get(url)
+                response.raise_for_status()
+                with open(path, 'wb') as pdf_file:
+                    pdf_file.write(response.content)
+                logging.info(f"Downloaded: {title}")
+                tqdm.write(f"Downloaded: {title}")
+                return
+            except requests.exceptions.RequestException as e:
+                logging.error(f"Attempt {attempt + 1} failed for {title}: {e}")
+                time.sleep(delay)
+        raise Exception(f"Failed to download {title} after {retries} attempts")

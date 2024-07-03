@@ -20,26 +20,29 @@ def split_documents(documents, text_splitter):
     
     return all_splits
 
+def save_cleaned_documents(cleaned_documents, output_file):
+    with open(output_file, 'w', encoding='utf-8') as f:
+        for doc in cleaned_documents:
+            f.write(doc.page_content + "\n")
 
 if __name__ == "__main__":
 
-    scraper = LawScraper('config.json')
-    scraper.get_laws_list()
+    # scraper = LawScraper('config.json')
+    # scraper.get_laws_list()
 
-    laws_from_json = scraper.load_laws_from_json()
-    scraper.download_pdfs(laws_from_json)
+    # laws_from_json = scraper.load_laws_from_json()
+    # scraper.download_pdfs(laws_from_json)
 
-    # pdf_folder_path = "data/pdfs"
-    # data = load_and_process_pdfs(pdf_folder_path)
+    pdf_folder_path = "data/pdfs"
+    data = load_and_process_pdfs(pdf_folder_path)
     
-    # text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-    #     chunk_size=512,
-    #     chunk_overlap=30,
-    # )
+    text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
+        chunk_size=512,
+        chunk_overlap=30,
+    )
 
-    # all_splits = split_documents(data, text_splitter)
+    all_splits = split_documents(data, text_splitter)
 
-    # with open("splitted.txt", "w", encoding="utf-8") as f:
-    #     for split in all_splits:
-    #         print(split.pages[5])
-    #         f.write(split + "\n")
+    with open("splitted.txt", "w", encoding="utf-8") as f:
+        for split in all_splits:
+            f.write(split.page_content + "\n")

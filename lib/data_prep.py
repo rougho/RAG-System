@@ -2,6 +2,8 @@ import os
 import re
 from langchain_community.document_loaders import PyPDFLoader
 from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor
+
 # import dataclasses
 
 
@@ -51,13 +53,18 @@ class PDFProcessor:
         cleaned_pages_list = []
         
         with tqdm(total=total_steps, desc="Process PDFs: ") as progress_bar:
-            for file_path in self.file_paths:
-                pdf_cleaner = PDFCleaner(file_path)
-                pdf_cleaner.clean_first_page(progress_bar)
-                cleaned_pages = pdf_cleaner.clean_headers_and_page_numbers(progress_bar)
-                cleaned_pages_list.extend(cleaned_pages)
+            with ThreadPoolExecutor(max_workers=4) as executor:
+                results = list(executor.map(self._process_single_pdf, [(file_path, progress_bar) for file_path in self.file_paths]))
+                for cleaned_pages in results:
+                    cleaned_pages_list.extend(cleaned_pages)
         
         return cleaned_pages_list
+    
+    def _process_single_pdf(self, args):
+        file_path, progress_bar = args
+        pdf_cleaner = PDFCleaner(file_path)
+        pdf_cleaner.clean_first_page(progress_bar)
+        return pdf_cleaner.clean_headers_and_page_numbers(progress_bar)
 
 def load_and_process_pdfs(pdf_folder_path):
     pdf_paths = [os.path.join(pdf_folder_path, file) for file in os.listdir(pdf_folder_path) if file.endswith('.pdf')]
