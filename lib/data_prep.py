@@ -1,17 +1,22 @@
 import os
 import re
+import logging
 from langchain_community.document_loaders import PyPDFLoader
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
 
-# import dataclasses
-
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s',
+                    filename='pdf_cleaner.log',
+                    filemode='w',
+                    encoding='utf-8')
 
 class PDFCleaner:
     def __init__(self, file_path):
         self.file_path = file_path
         self.loader = PyPDFLoader(file_path)
         self.pages = self.loader.load_and_split()
+        logging.info(f"Loaded and split PDF: {file_path}")
     
     def clean_first_page(self, progress_bar):
         pattern = r'^(.*?Translations.*?Translations.*?\n)'
@@ -23,12 +28,12 @@ class PDFCleaner:
         self.pages[0] = first_page
         
         progress_bar.update(1)
+        logging.info(f"Cleaned first page of PDF: {self.file_path}")
 
         return self.pages
     
     def clean_headers_and_page_numbers(self, progress_bar):
-        print(type(self.pages))
-        print(type(self.pages[0]))
+        logging.info(f"Started cleaning headers and page numbers for PDF: {self.file_path}")
         header_pattern = (
             r'Service\s+provided\s+by\s+the\s+Federal\s+Ministry\s+of\s+Justice\s+'
             r'and\s+the\s+Federal\s+Office\s+of\s+Justice\s+‒\s+www\.gesetze\s*-\s*im\s*-\s*internet\s*\.de'
@@ -42,6 +47,7 @@ class PDFCleaner:
             page.page_content = cleaned_content
             progress_bar.update(1)
         
+        logging.info(f"Finished cleaning headers and page numbers for PDF: {self.file_path}")
         return self.pages
 
 class PDFProcessor:
@@ -49,6 +55,7 @@ class PDFProcessor:
         self.file_paths = file_paths
     
     def process_pdfs(self):
+        logging.info("Started processing PDFs")
         total_steps = sum(len(PyPDFLoader(file_path).load_and_split()) + 1 for file_path in self.file_paths)
         cleaned_pages_list = []
         
@@ -58,6 +65,7 @@ class PDFProcessor:
                 for cleaned_pages in results:
                     cleaned_pages_list.extend(cleaned_pages)
         
+        logging.info("Finished processing all PDFs")
         return cleaned_pages_list
     
     def _process_single_pdf(self, args):
@@ -67,7 +75,9 @@ class PDFProcessor:
         return pdf_cleaner.clean_headers_and_page_numbers(progress_bar)
 
 def load_and_process_pdfs(pdf_folder_path):
+    logging.info(f"Loading and processing PDFs from folder: {pdf_folder_path}")
     pdf_paths = [os.path.join(pdf_folder_path, file) for file in os.listdir(pdf_folder_path) if file.endswith('.pdf')]
     pdf_processor = PDFProcessor(pdf_paths)
     cleaned_documents = pdf_processor.process_pdfs()
+    logging.info(f"Finished loading and processing PDFs from folder: {pdf_folder_path}")
     return cleaned_documents

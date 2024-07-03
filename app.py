@@ -27,11 +27,11 @@ def save_cleaned_documents(cleaned_documents, output_file):
 
 if __name__ == "__main__":
 
-    # scraper = LawScraper('config.json')
-    # scraper.get_laws_list()
+    scraper = LawScraper('config.json')
+    scraper.get_laws_list()
 
-    # laws_from_json = scraper.load_laws_from_json()
-    # scraper.download_pdfs(laws_from_json)
+    laws_from_json = scraper.load_laws_from_json()
+    scraper.download_pdfs(laws_from_json)
 
     pdf_folder_path = "data/pdfs"
     data = load_and_process_pdfs(pdf_folder_path)
