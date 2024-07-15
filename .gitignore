@@ -8,6 +8,6 @@ data/*
 db/
 data_cleaned.txt
 log.py
-
+app.log
 # Byte-compiled / optimized / DLL files
 __pycache__/
