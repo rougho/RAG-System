@@ -12,7 +12,7 @@ from requests.exceptions import RequestException
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s',
-                    filename='lawscraper.log',
+                    filename='app.log',
                     filemode='w',
                     encoding='utf-8')
 

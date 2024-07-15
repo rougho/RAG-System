@@ -1,7 +1,13 @@
 .env
+.venv/
 venv/
 lawscraper.log
+test.ipynb
 test.py
+data/*
+db/
+data_cleaned.txt
+log.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

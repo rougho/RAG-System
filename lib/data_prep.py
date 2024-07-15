@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s',
-                    filename='pdf_cleaner.log',
+                    filename='app.log',
                     filemode='w',
                     encoding='utf-8')
 
