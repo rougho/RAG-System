@@ -4,11 +4,13 @@ import logging
 from langchain_community.document_loaders import PyPDFLoader
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
+from lib.config import config
 
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s',
-                    filename='app.log',
-                    filemode='w',
+# Configure logging
+logging.basicConfig(level=config['logging']['level'],
+                    format=config['logging']['format'],
+                    filename=config['logging']['filename'],
+                    filemode=config['logging']['filemode'],
                     encoding='utf-8')
 
 class PDFCleaner:
@@ -74,7 +76,7 @@ class PDFProcessor:
         pdf_cleaner.clean_first_page(progress_bar)
         return pdf_cleaner.clean_headers_and_page_numbers(progress_bar)
 
-def load_and_process_pdfs(pdf_folder_path):
+def load_and_process_pdfs(pdf_folder_path=config['pdf_processing']['pdf_folder_path']):
     logging.info(f"Loading and processing PDFs from folder: {pdf_folder_path}")
     pdf_paths = [os.path.join(pdf_folder_path, file) for file in os.listdir(pdf_folder_path) if file.endswith('.pdf')]
     pdf_processor = PDFProcessor(pdf_paths)

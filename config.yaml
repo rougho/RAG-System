@@ -1,0 +1,39 @@
+
+# OpenAI settings
+openai:
+  api_key: ""
+  model: "gpt-3.5-turbo-0125"
+  temperature: 0
+
+# Database settings
+database:
+  persist_directory: "vector_database"
+
+# PDF processing settings
+pdf_processing:
+  pdf_folder_path: "data/pdfs"
+  chunk_size: 512
+  chunk_overlap: 64
+  batch_size: 1000
+
+# Scraper settings
+scraper:
+  url_base: "https://www.gesetze-im-internet.de/"
+  laws_url: "https://www.gesetze-im-internet.de/Teilliste_translations.html"
+  json_filepath: "data/laws_list.json"
+  pdf_dir: "data/pdfs"
+
+# Logging settings
+logging:
+  level: INFO
+  filename: "app.log"
+  filemode: "w"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+
+# Application settings
+application:
+  session_id: "12345"
+  exit_commands:
+    - "exit"
+    - "quit"
+    - "stop"

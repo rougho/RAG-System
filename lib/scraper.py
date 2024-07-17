@@ -7,13 +7,13 @@ from tqdm import tqdm
 import logging
 import validators
 import time
-from requests.exceptions import RequestException
+from lib.config import config
 
-
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s',
-                    filename='app.log',
-                    filemode='w',
+# Configure logging
+logging.basicConfig(level=config['logging']['level'],
+                    format=config['logging']['format'],
+                    filename=config['logging']['filename'],
+                    filemode=config['logging']['filemode'],
                     encoding='utf-8')
 
 
@@ -35,20 +35,17 @@ def validate_path(path):
 
 
 class LawScraper:
-    def __init__(self, config_path):
-        with open(config_path, 'r') as config_file:
-            config = json.load(config_file)
-        self.url_base = config['url_base']
-        self.laws_url = config['laws_url']
-        self.json_filepath = config['json_filepath']
-        self.pdf_dir = config['pdf_dir']
+    def __init__(self, url_base, laws_url, json_filepath, pdf_dir):
+        self.url_base = url_base
+        self.laws_url = laws_url
+        self.json_filepath = json_filepath
+        self.pdf_dir = pdf_dir
 
         validate_url(self.url_base)
         validate_url(self.laws_url)
-        validate_path(self.json_filepath)
-        validate_path(self.pdf_dir)
+        os.makedirs(os.path.dirname(self.json_filepath), exist_ok=True)
+        os.makedirs(self.pdf_dir, exist_ok=True)
         
-
     def fetch_laws_page(self, url):
         try:
             response = requests.get(url)
@@ -85,7 +82,6 @@ class LawScraper:
 
     def save_laws_to_json(self, laws):
         try:
-            os.makedirs(os.path.dirname(self.json_filepath), exist_ok=True)
             with open(self.json_filepath, 'w', encoding='utf-8') as f:
                 json.dump(laws, f, ensure_ascii=False, indent=4)
             logging.info(f"Laws saved to {self.json_filepath}")

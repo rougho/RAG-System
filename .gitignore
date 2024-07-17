@@ -9,5 +9,7 @@ db/
 data_cleaned.txt
 log.py
 app.log
+rmg_loader.py
+vector_database/
 # Byte-compiled / optimized / DLL files
 __pycache__/
