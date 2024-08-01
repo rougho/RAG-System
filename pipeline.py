@@ -180,10 +180,10 @@ if __name__ == "__main__":
             st.markdown("""
                 :arrow_forward: &nbsp;LinkedIn: [Rouhollah Ghobadinezhad](https://www.linkedin.com/in/rouhollah-ghobadinezhad-b55b84174)
                 """)
-            with st.container():
-                st.header("Acknowledgement")
-                st.write("\n" * 50)
-                st.info("This Chatbot can make mistakes, check important informations.", icon="ℹ️")
+        with st.container():
+            st.header("Acknowledgement")
+            st.write("\n" * 50)
+            st.info("This Chatbot can make mistakes, check important informations.", icon="ℹ️")
             
 
 
