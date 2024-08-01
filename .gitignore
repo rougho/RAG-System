@@ -1,15 +1,12 @@
 .env
 .venv/
 venv/
-lawscraper.log
-test.ipynb
-test.py
-data/*
-db/
-data_cleaned.txt
-log.py
 app.log
-rmg_loader.py
-vector_database/
+data/pdfs/*
+data/evaluation/result.json
+data/evaluation/evaluation_plot.html
+data/evaluation/single_question_evaluation_plot.html
+rmg/
+faiss_vectorstore/
 # Byte-compiled / optimized / DLL files
 __pycache__/

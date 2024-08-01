@@ -75,7 +75,7 @@ class LawScraper:
 
                 pdf_url = link.split('/')[0]
                 pdf_url = f"{self.url_base}{pdf_url}/{pdf_url}.pdf"
-                laws.append({'Law code': act_code, 'Law Title': law_title, 'Link': link, 'pdf_url': pdf_url})
+                laws.append({'Law code': act_code, 'Law Title': law_title, 'Link': f"{self.url_base}{link}", 'pdf_url': pdf_url})
         
         logging.info(f"Parsed {len(laws)} laws from HTML content")
         return laws
@@ -91,15 +91,16 @@ class LawScraper:
 
     def print_laws(self, laws):
         for law in tqdm(laws, desc="Getting laws list: "):
-            logging.info(f"Title: {law['Law code']}, Law Title: {law['Law Title']}, Link: {law['Link']}, PDF: {law['pdf_url']}")
-            print(f"Title: {law['Law code']}\nLaw Title: {law['Law Title']}\nLink: {law['Link']}\nPDF: {law['pdf_url']}")
+            data = f"Law Code: {law['Law code']}\nLaw Title: {law['Law Title']}\nLink: {law['Link']}\nPDF: {law['pdf_url']}"
+            logging.info(data)
+            print(data)
 
     def get_laws_list(self):
         html_content = self.fetch_laws_page(self.laws_url)
         laws = self.parse_laws(html_content)
         self.save_laws_to_json(laws)
         print("Laws have been saved to", self.json_filepath)
-        self.print_laws(laws)
+        # self.print_laws(laws)
 
     def load_laws_from_json(self):
         try:

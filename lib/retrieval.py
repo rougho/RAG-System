@@ -1,35 +1,40 @@
-from langchain.prompts import ChatPromptTemplate
-from langchain.chains import create_history_aware_retriever
-from langchain_core.prompts import MessagesPlaceholder
-from langchain_community.vectorstores import Chroma
+import logging
 from langchain_openai import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
 from lib.config import config
 
-class Retrieval:
-    def __init__(self, persist_directory=config['database']['persist_directory']):
-        self.vector_db = Chroma(persist_directory=persist_directory, embedding_function=OpenAIEmbeddings())
+logging.basicConfig(level=config['logging']['level'],
+                    format=config['logging']['format'],
+                    filename=config['logging']['filename'],
+                    filemode=config['logging']['filemode'],
+                    encoding='utf-8')
 
-    def get_relevant_docs(self):
-        return self.vector_db.as_retriever(k=5)
+class FAISSRetriever:
+    def __init__(self, db_folder_path, embeddings_model="text-embedding-3-large", index_name="faiss_db"):
+        logging.info("Initializing FAISSRetriever")
+        self.db_folder_path = db_folder_path
+        self.embeddings_model = embeddings_model
+        self.index_name = index_name
+        self.retriever = None
+        self.load_retriever()
+        logging.info("FAISSRetriever initialized successfully")
 
-    def create_history_aware_retriever(self, chat_model):
-        contextualize_q_system_prompt = (
-            "You are a knowledgeable tax advisor specialized in German tax laws. "
-            "Given a chat history and the latest user question which might reference context in the chat history, "
-            "reformulate the user question into a standalone question that can be understood without the chat history. "
-            "Ensure the reformulated question retains all relevant details for accurate advice on German tax laws. "
-            "Do NOT answer the question, just reformulate it if needed and otherwise return it as is. "
-            "Be specific and include any necessary context about tax regulations, compliance, or related advice."
-        )
+    def load_retriever(self):
+        logging.info(f"Loading retriever with model: {self.embeddings_model}, index: {self.index_name}")
+        try:
+            embeddings = OpenAIEmbeddings(model=self.embeddings_model)
+            db = FAISS.load_local(folder_path=self.db_folder_path, embeddings=embeddings, index_name=self.index_name, allow_dangerous_deserialization=True)
+            self.retriever = db.as_retriever(search_type="mmr", search_kwargs={"k": 10})
+            logging.info("Retriever loaded successfully")
+        except Exception as e:
+            logging.error(f"Failed to load retriever: {e}")
+            raise
 
-        contextualize_q_prompt = ChatPromptTemplate.from_messages(
-            [
-                ("system", contextualize_q_system_prompt),
-                MessagesPlaceholder("chat_history"),
-                ("human", "{input}"),
-            ]
-        )
-
-        relevant_docs = self.get_relevant_docs()
-        
-        return create_history_aware_retriever(chat_model, relevant_docs, contextualize_q_prompt)
+    def get_retriever(self):
+        if self.retriever:
+            logging.info("Retriever is ready to be returned")
+            return self.retriever
+        else:
+            error_msg = "Retriever has not been initialized"
+            logging.error(error_msg)
+            raise ValueError(error_msg)

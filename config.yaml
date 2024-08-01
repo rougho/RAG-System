@@ -2,7 +2,7 @@
 # OpenAI settings
 openai:
   api_key: ""
-  model: "gpt-3.5-turbo-0125"
+  model: "gpt-4o" #"gpt-4o-mini" #"gpt-3.5-turbo-0125"
   temperature: 0
 
 # Database settings
@@ -13,7 +13,7 @@ database:
 pdf_processing:
   pdf_folder_path: "data/pdfs"
   chunk_size: 512
-  chunk_overlap: 64
+  chunk_overlap: 30
   batch_size: 1000
 
 # Scraper settings
@@ -32,7 +32,7 @@ logging:
 
 # Application settings
 application:
-  session_id: "12345"
+  session_id: "12345C"
   exit_commands:
     - "exit"
     - "quit"
