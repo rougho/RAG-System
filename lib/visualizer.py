@@ -5,7 +5,7 @@ class MetricsPlotter:
         self.data = data
         self.title = title
         self.width = width
-        self.margin = dict(l=100,r=100, t=100, b=100, pad=10)
+        self.margin = dict(l=100,r=100, t=30, b=100, pad=10)
         self.output_file = output_file
     
     def compute_averages(self):
@@ -60,7 +60,8 @@ class MetricsPlotter:
             r=r_values,
             theta=theta_values,
             fill='toself',
-            name='Metrics Trace'
+            name='Metrics Trace',
+            line=dict(color='black')
         ))
         
         fig.update_layout(
@@ -78,7 +79,7 @@ class MetricsPlotter:
                 yanchor='top',
             ),
             width=self.width,
-            margin=dict(t=100, b=50, l=50, r=50)  # Adjust these values as needed
+            margin=dict(t=80, b=30, l=180, r=40)  
         )
 
         fig.write_html(self.output_file)

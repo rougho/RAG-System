@@ -144,9 +144,13 @@ if __name__ == "__main__":
         output_messages_key="answer",
     )
 
+    st.set_page_config(
+        page_title="RAG - Rouhollah Ghobadinezhad",
+        initial_sidebar_state="collapsed"
+    )
+
     st.title("Law Chatbot")
     st.write("Ask a question about laws and get precise answers.")
-    col1, col2 = st.columns(2)
     with st.sidebar:
         with st.container():
             st.header("About")
