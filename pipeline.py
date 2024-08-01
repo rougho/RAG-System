@@ -181,9 +181,11 @@ if __name__ == "__main__":
                 :arrow_forward: &nbsp;LinkedIn: [Rouhollah Ghobadinezhad](https://www.linkedin.com/in/rouhollah-ghobadinezhad-b55b84174)
                 """)
         with st.container():
+            st.write("")
+            st.write("")
             st.header("Acknowledgement")
-            st.write("\n" * 50)
             st.info("This Chatbot can make mistakes, check important informations.", icon="ℹ️")
+            
             
 
 
